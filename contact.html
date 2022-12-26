@@ -10,7 +10,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Mike Smith Portfolio</title>
+    <title>Contact Mike Smith</title>
   </head>
   <body>
     <!-- Header -->
@@ -21,16 +21,16 @@
       <!-- Navigation -->
       <nav class="nav">
         <ul role="list" class="menu-nav">
-          <li class="menu-nav__item active">
+          <li class="menu-nav__item ">
             <a href="index.html" class="menu-nav__link">Home</a>
           </li>
-          <li class="menu-nav__item">
+          <li class="menu-nav__item ">
             <a href="about.html" class="menu-nav__link">About Me</a>
           </li>
-          <li class="menu-nav__item">
+          <li class="menu-nav__item ">
             <a href="projects.html" class="menu-nav__link">My Project</a>
           </li>
-          <li class="menu-nav__item">
+          <li class="menu-nav__item active">
             <a href="contact.html" class="menu-nav__link">Contact Me</a>
           </li>
         </ul>
@@ -38,12 +38,22 @@
     </header>
     <!-- Main -->
     <main class="main">
-      <section class="home">
-        <h2>Hi! My name is</h2>
-        <h1 class="home__name">Mike
-          <span class="home__name--last">Smith</span>
-        </h1>
-        <h3>Web Developer, Designer & Programmer</h3>
+      <section class="contact">
+        <h2>Contact Me..</h2>
+        <div class="contact__list">
+          <div class="contact__email">
+            <span class="fas fa-envelope"></span>Email
+            <div class="text-secondary">email@emal.com</div>
+          </div>
+          <div class="contact__phone">
+            <span class="fas fa-mobile-alt"></span>Phone
+            <div class="text-secondary">+1 (555) 555- 5555</div>
+          </div>
+          <div class="contact__address">
+            <span class="fas fa-map-marker-alt"></span>Address
+            <div class="text-secondary">123 First St. Houston, TX</div>
+          </div>
+        </div>
         <!-- Social icons -->
         <div class="social-icons">
           <a href="#"><span class="fab fa-twitter fa-2x"></span></a>
@@ -57,6 +67,6 @@
     <footer class="footer">
       &copy; Copyright 2022
     </footer>
-    <script src="dist/js/app.js" defer></script>
+    <script src="/dist/js/app.js" defer></script>
   </body>
 </html>
